@@ -1,0 +1,527 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+
+
+h1{
+ font-size: 50px;
+ line-height: 64px;
+ color: #222;
+}
+
+h2{
+ font-size: 46px;
+ line-height: 54px;
+ color: #222;
+}
+
+h4{
+ font-size: 20px;
+ color: #222;
+}
+
+h6{
+ font-weight: 600;
+font-size: 12px;
+}
+
+p{
+ font-size: 16px;
+ color: #465b52;
+ margin: 15px 0 20px 0;
+}
+
+
+.section-p1{
+ padding: 40px 80px;
+}
+
+
+.section-m1{
+ margin: 40px 0;
+}
+
+
+body{
+ width: 100;
+}
+
+
+#header{
+display: flex;
+align-self: center;
+justify-content: space-between;
+padding: 20px 80px;
+background: #e3e6fc;
+box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+position: fixed;
+width: 100vw;
+height: 10vh;
+}
+.logo{
+ width: 80%;
+ padding-bottom: 15px;
+}
+#navbar{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+#navbar li{
+ list-style: none;
+ padding: 0px 20px 0 30px ;
+
+
+}
+#navbar li a{
+ text-decoration: none;
+ font-size: 14px;
+ font-weight: 300;
+ color: #1a1a1a;
+
+}
+#navbar li a:hover{
+ color: #088178;
+ border-bottom: 2px solid  #088178;
+ transition: 0.2s ease-in;
+ -webkit-transition: 0.2s ease-in;
+ -moz-transition: 0.2s ease-in;
+ -ms-transition: 0.2s ease-in;
+ -o-transition: 0.2s ease-in;
+}
+#navbar  a:active{
+ color: #088178;
+ border-bottom: 2px solid  #088178;
+}
+
+.active a{
+  color: #088178;
+text-decoration: underline;
+}
+.bugger{
+  color: #fff;
+ display: none;
+}
+
+.bugger-close{
+
+  display: none;
+ }
+
+ .bugger-close span {
+color: #fff;
+ }
+ .text{
+  padding-top: 10em;
+  text-align: center;
+  background-image: url('banner.png');
+  height: 30vh;
+ }
+
+ .text h3{
+
+  font-size: 3em;
+  color: #fff;
+ }
+.text p{
+ font-size: 1.5em;
+ color: #fff;
+}
+.address{
+ display: flex;
+ margin-left: 40px;
+ justify-content: space-between;
+}
+.address-text h3{
+ font-size: 2em;
+ font-weight: 700;
+ line-height: 2em;
+}
+.address-text p{
+font-weight: normal;
+font-size: 13px;
+}
+.address img{
+ width: 50em;
+ margin-right: 8em;
+}
+.tittle{
+ margin-left: 40px;
+}
+.tittle p{
+ font-size: 2em;
+}
+.tittle h3{
+ font-size: 1em;
+}
+
+
+form p{
+ margin-left: 20px;
+ margin-bottom: 5px;
+}
+form h3{
+ margin-left: 20px;
+ margin-bottom: 15px;
+ 
+ font-size: 2em;
+}
+input{
+margin-left: 20px;
+margin-bottom: 1em;
+width: 50em;
+height: 3em;
+font-size: 12px;
+border: 0.5px solid rgb(191, 183, 183);
+}
+
+textarea{
+ margin-left: 20px;
+ width: 50em;
+ font-size: 12px;
+ border: 0.5px solid rgb(191, 183, 183);
+}
+
+ button{
+ height: 3em;
+ width: 7em;
+ background-color: #088178;
+ border: none;
+ color: #ffff;
+ font-size: 15px;
+ border: none;
+ border-radius:5px ;
+ margin-left: 20px;
+ -webkit-border-radius:5px ;
+ -moz-border-radius:5px ;
+ -ms-border-radius:5px ;
+ -o-border-radius:5px ;
+}
+#contact{
+ display: flex;
+ border: 0.5px solid rgb(191, 183, 183);
+ justify-content: space-between;
+ width: 90vw;
+ height: 33em;
+ margin-left: 40px;
+ margin-top: 10px;
+}
+.workers{
+ margin-top: 30px;
+ display: block;
+ margin-right: 3em;
+}
+
+.overall{
+ display: flex;
+ margin-bottom: 20px;
+}
+
+.worker-info{
+ line-height: 5px;
+margin-left: 10px;
+}
+
+.worker-info h3{
+ font-size: 1.5em;
+}
+.worker-info p{
+ font-size: 14px;
+ font-weight: normal;
+}
+
+#form{
+ display: flex;
+ justify-content: space-between;
+ background-image: url(banner.png);
+ height: 18vh;
+ align-items: center;
+ margin-top: 40px;
+}
+
+#form .req h3{
+ color: #fff;
+ font-size: 2em;
+ margin-left: 40px;
+ margin-top: 40px;
+}
+
+#form .req p{
+ color: #fff;
+ margin-left: 40px;
+ margin-bottom: 30px;
+}
+#form .form {
+ margin-right: 80px;
+}
+#form .form input{
+ font-size: 15px;
+ height: 1.5em;
+ width: 25em;
+ padding: 10px;
+ border-radius: 4px;
+
+ outline: none;
+ border: none;
+}
+#form .form button{
+ height: 3em;
+ width: 7em;
+ background-color: #088178;
+ border: none;
+ color: #ffff;
+ font-size: 15px;
+ border: none;
+ border-radius:5px ;
+ -webkit-border-radius:5px ;
+ -moz-border-radius:5px ;
+ -ms-border-radius:5px ;
+ -o-border-radius:5px ;
+}
+#footer{
+ display: flex;
+ justify-content: space-between;
+ margin: 40px 40px 40px 40px;
+
+}
+
+#footer a{
+ text-decoration: none;
+color: rgb(198, 192, 192);
+font-size: 12px;
+}
+
+#footer a:hover{
+color:#088178 ;
+}
+
+
+#footer li{
+ list-style: none;
+ line-height: 2.8em;
+}
+
+#footer .row-1 h3{
+margin-top: 40px ;
+ font-size: 12px;
+}
+
+#footer .row-1 span, p, h4{
+ margin-top: 20px ;
+ font-weight: 600;
+ color: #000;
+ font-size: 12px;
+}
+
+#footer .row-1  p{
+ font-weight: normal;
+ color: rgb(198, 192, 192);
+}
+#footer .row-1 .social-icons{
+ display: flex;
+ margin-top: 20px;
+}
+#footer .row-1  .social-icons img{
+ width: 20px;
+ margin:5px;
+}
+#footer .about h3{
+ font-size: 18px;
+ margin-bottom: 20px;
+}
+
+#footer .account h3{
+ font-size: 18px;
+ margin-bottom: 20px;
+}
+
+#footer .apps h3{
+ font-size: 18px;
+ margin-bottom: 20px;
+}
+#footer .apps-icon {
+ display: flex;
+
+}
+#footer .apps-icon .img-1{
+ border: 1px solid #088178;
+ margin-right: 10px;
+ margin-top: 10px;
+ border-radius: 8px;
+
+}
+#footer .apps-icon .img-2{
+ border: 1px solid #088178;
+}
+#footer .payment p{
+ color: rgb(198, 192, 192);
+}
+
+/*---------------------------------------------Media Queries---------------------------------------------------*/
+@media screen and (max-width:900px){
+ #navbar{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  #contact{
+   display: inline;
+   border: 0.5px solid rgb(191, 183, 183);
+   width: 90vw;
+   height: 33em;
+   margin-left: 40px;
+   margin-top: 10px;
+  }
+  .workers{
+   margin-top: 30px;
+   display: block;
+margin-left: 40px;
+  }
+ }
+ @media screen and (max-width:700px){
+  #navbar{
+    display: block;
+    background-color: #e2e3ee;
+    line-height: 5em;
+    width: 20em;
+    text-align: center;
+    margin-top: 4em;
+    margin-left: 12em;
+    display: none;
+   
+     }
+     .logo{
+      width: 80%;
+      }
+     
+      .bugger{
+       display: block;
+       position: fixed;
+       right: 10em;
+     
+      }
+     
+      .bugger-close{
+       display: block;
+       position: fixed;
+       right: 8em;
+        }
+
+        .text{
+          padding-top: 15em;
+          text-align: center;
+          background-image: url('banner.png');
+          height: 30vh;
+         }
+        .address{
+         display: block;
+        }
+       
+        .text p{
+         font-size: 15px;
+         font-weight: normal;
+        }
+        .address .img img{
+         padding-right: 20em;
+         width: 50%;
+        }
+
+        .tittle h2{
+         font-size: 20px;
+         line-height: 1.5em;
+        }
+.address-text h3{
+padding-top: 10px;
+ text-decoration: underline;
+ font-weight: bold;
+ font-size: 16px;
+}
+.address-text p{
+ font-weight: normal;
+ font-size: 14px;
+text-decoration: none;
+}
+form p{
+ font-weight: normal;
+ font-size: 16px;
+}
+.worker-info p{
+ font-weight: normal;
+ font-size: 15px;
+}
+       
+       #contact{
+        display: inline;
+        border: 0.5px solid rgb(191, 183, 183);
+        width: 90vw;
+        height: 33em;
+        margin-left: 40px;
+        margin-top: 10px;
+       }
+       .workers{
+        margin-top: 30px;
+        display: block;
+margin-left: 40px;
+       }
+
+     input{
+      width: 30em;
+     }
+     textarea{
+      width: 30em;
+     }
+     #form{
+      
+      display: block;
+      height: 22em;
+     }
+     
+    
+     #form .form input{
+      margin: 20px;
+      font-size: 15px;
+      height: 3em;
+      width: 15em;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+     
+}
+     #form .form button{
+      height: 3em;
+      width: 7em;
+      background-color: #088178;
+      border: none;
+      color: #ffff;
+      font-size: 15px;
+      border: none;
+      border-radius:5px ;
+      margin-left: 2em;
+      margin-bottom: 2em;
+}
+     #form .req {
+      color: #fff;
+      font-size: 2em;
+      margin-bottom: 15px;
+     }
+
+
+     #form .req h3{
+      color: #fff;
+      font-size: 25px;
+    padding-top: 10px;
+     }
+     #form .req p{
+      font-size: 11px;
+     }
+     #footer{
+      display: block;
+      line-height: 2em;
+     }
+     
+       }

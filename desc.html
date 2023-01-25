@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="desc.css">
+ <title>Document</title>
+</head>
+<body>
+ <section id="header">
+  <a href="#"> <img src="logo.png" class="logo" alt=""></a>
+ 
+    <div>
+   <ul id="navbar">
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="about.html">About</a></li>
+ <li><a href="contact.html">contact</a></li>
+    <li><a href="cart.html"><p style="color:#000;">&#128092 </p> </a></li>
+   </ul>
+   
+  </div>
+  <div class="bugger" onclick="openNav()">
+ 
+   <span >&#9776</span>
+ 
+  </div>
+ 
+  <div class="bugger-close" onclick="closeNav()">
+ 
+  <span> &#10006</span> 
+ 
+  
+   </div>
+    
+ 
+ 
+  
+ </section>
+ <section id="item-desc">
+
+<div class="img">
+  <h3>Men's  Fashion T Shirt</h3>
+  <img src="f1.jpg" alt="">
+
+</div>
+
+<div class="desc">
+ 
+<h3>$139.00</h3>
+<select name="" id="">
+  <option value="">select size</option>
+  <option value="">XL</option>
+  <option value="">XXL</option>
+  <option value="">Small</option>
+  <option value="">Large</option>
+</select>
+<div class="quantity">
+  <form>
+    <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+    <input type="number" id="number" value="0" />
+    <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+  </form>
+  <button>Add to cart</button>
+</div>
+<div class="details">
+  <h3>Product Details</h3>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore at debitis, quam laborum minus vero vitae amet sunt deleniti sit animi, nobis perferendis, odit possimus quia? Quia dolore itaque, minima corporis ipsam veniam, quasi facilis, inventore sequi ducimus corrupti? Illo, soluta debitis eius eaque repellat quaerat in id omnis cupiditate neque possimus laborum aliquid velit quia fugiat obcaecati officia nihil non repellendus dolorum voluptate quae. Adipisci officia vel nulla quia nisi cupiditate quam alias quis ducimus vero iure, incidunt molestias, aspernatur molestiae soluta, tempore quasi. Non esse ea libero neque aperiam deleniti quod possimus delectus voluptatibus nobis? Laborum, id reprehenderit.
+  </p>
+</div>
+</div>
+
+
+ </section>
+ <script src="app.js"></script>
+</body>
+</html>

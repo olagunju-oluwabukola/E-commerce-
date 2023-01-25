@@ -1,0 +1,188 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+#header{
+ display: flex;
+ align-self: center;
+ justify-content: space-between;
+ padding: 20px 80px;
+ background: #e3e6fc;
+ box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+ position: fixed;
+ width: 100vw;
+ height: 2vh;
+ }
+ .logo{
+  width: 80%;
+  padding-bottom: 50px;
+ }
+ #navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 130px;
+ }
+ 
+ #navbar li{
+  list-style: none;
+  padding: 0px 20px 0 20px ;
+
+ 
+ }
+ #navbar li a{
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  color: #1a1a1a;
+ 
+ }
+ #navbar li a:hover{
+  color: #088178;
+  border-bottom: 2px solid  #088178;
+  transition: 0.2s ease-in;
+  -webkit-transition: 0.2s ease-in;
+  -moz-transition: 0.2s ease-in;
+  -ms-transition: 0.2s ease-in;
+  -o-transition: 0.2s ease-in;
+}
+ #navbar a:active{
+  color: #088178;
+  border-bottom: 2px solid  #088178;
+ }
+
+
+ .bugger{
+  color: #fff;
+ display: none;
+}
+
+.bugger-close{
+
+  display: none;
+ }
+
+ .bugger-close span {
+color: #fff;
+
+ }
+
+ #item-desc{
+
+  display: flex;
+  padding-top: 12em;
+  padding-left: 5em;
+ }
+
+ #item-desc img{
+width: 70%;
+height: 70%;
+ }
+
+  .img h3{
+ font-size: 2.5em;
+ margin-bottom: 1em;
+}
+.desc h3{
+  font-size: 2em;
+  padding-top: 3em;
+
+}
+
+.desc select{
+  width: 8em;
+  margin-top: 3em;
+}
+.desc option{
+  font-size: 12px;
+}
+form{
+  width: 10px;
+  display: flex;
+margin-top: 10px;
+border: 1px solid#000;
+width: 100px;
+height: 20px;
+}
+input{
+  width: 25px;
+  border: none;
+}
+.value-button{
+
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+ button{
+  height: 3em;
+  width: 6em;
+  background-color: #088178;
+  border: none;
+margin-top: 10px;
+  color: #ffff;
+  font-size: 12px;
+  border: none;
+  border-radius:5px ;
+  -webkit-border-radius:5px ;
+  -moz-border-radius:5px ;
+  -ms-border-radius:5px ;
+  -o-border-radius:5px ;
+ }
+ .details p{
+  width:40em;
+ }
+ 
+/*---------------------------------------------Media Queries---------------------------------------------------*/
+
+@media screen and (max-width:910px){
+  #item-desc{
+
+    display: flex;
+    
+    padding-top: 12em;
+    padding-left: 5em;
+   }
+}
+
+ @media screen and (max-width:700px) {
+  #navbar{
+    display: block;
+    background-color: #e2e3ee;
+    line-height: 5em;
+    width: 100vw;
+    text-align: center;
+    margin-top: 4em;
+    margin-left: 12em;
+    display: none;
+     }
+    
+     .logo{
+     width: 80%;
+     }
+    
+     .bugger{
+      display: block;
+      position: fixed;
+      right: 10em;
+    
+     }
+    
+     .bugger-close{
+      display: block;
+      position: fixed;
+      right: 8em;}
+      #item-desc{
+     
+        display: block;
+        padding-top: 12em;
+        padding-left: 5em;
+       }
+       .details p{
+        width:25em;}
+     }
+   
+       
+     
+    
+      
