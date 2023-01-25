@@ -314,7 +314,14 @@ margin-top: 40px ;
 }
 
 /*---------------------------------------------Media Queries---------------------------------------------------*/
-
+@media screen and (max-width:1300px){
+  #feature{
+    display: flex;
+    flex-wrap: wrap;
+  row-gap: 60px;
+  justify-content: center;
+   }
+}
  @media screen and (max-width:900px){
   #navbar{
     display: flex;
@@ -326,6 +333,8 @@ margin-top: 40px ;
     display: flex;
   
    }
+   
+
   }
  @media screen and (max-width:700px){
   #navbar{
