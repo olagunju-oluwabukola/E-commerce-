@@ -566,6 +566,12 @@ font-size: 15px;
     align-items: center;
     width: 100vw;
    }
+   #feature{
+    display: flex;
+    flex-wrap: wrap;
+  row-gap: 60px;
+  justify-content: center;
+   }
    #hero{
     background-image: url('hero4.png');
     height: 100vh;
@@ -574,6 +580,14 @@ font-size: 15px;
 
    margin-top: 0;
    
+   }
+}
+@media screen and (max-width:1300px){
+  #feature{
+    display: flex;
+    flex-wrap: wrap;
+  row-gap: 60px;
+  justify-content: center;
    }
 }
 @media screen and (max-width:1024){
