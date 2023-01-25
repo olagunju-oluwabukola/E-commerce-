@@ -345,6 +345,11 @@ color: #fff;
       font-size: 18px;
     
      }
+     .shop-banner-text{
+      background: url('banner.png');
+      height: 30vh;
+      text-align: center;
+     }
      
      .shop-banner-text h3{
       color:#fff;

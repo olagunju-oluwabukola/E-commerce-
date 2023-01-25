@@ -120,7 +120,7 @@ color: #fff;
   padding-top: 10em;
   text-align: center;
   background-image: url('banner.png');
-  height: 30vh;
+  height: 50vh;
  }
 
  .text h3{
@@ -413,10 +413,10 @@ margin-left: 40px;
         }
 
         .text{
-          padding-top: 15em;
+          padding-top: 10em;
           text-align: center;
           background-image: url('banner.png');
-          height: 30vh;
+          height: 40vh;
          }
         .address{
          display: block;
